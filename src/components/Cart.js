@@ -3,4 +3,4 @@ import { calculateTotal } from "../src/utils/pricing.js";
 
 const mk = (price, discount = 0, tax = 0) => new Product(price, discount, tax);
 
-console.log("Total:", calculateTotal([mk(100)]));
+console.log("Discount branch total:", calculateTotal([mk(100, 0.1, 0)]));
