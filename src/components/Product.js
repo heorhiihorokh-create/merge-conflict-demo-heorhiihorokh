@@ -8,6 +8,12 @@ class Product {
   calculatePrice() {
     return this.basePrice;
   }
+  
+  getDiscount() {
+    return this.basePrice * this.discountRate;
+  }
+
+
 }
 
 export default Product;
