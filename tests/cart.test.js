@@ -1,0 +1,1 @@
+console.log("Tax branch total:", calculateTotal([mk(100, 0, 0.2)]));

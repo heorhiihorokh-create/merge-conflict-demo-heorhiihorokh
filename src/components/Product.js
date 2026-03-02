@@ -8,6 +8,10 @@ class Product {
   calculatePrice() {
     return this.basePrice;
   }
+  getTax() {
+    return this.basePrice * this.taxRate;
+  }
+
 }
 
 export default Product;
